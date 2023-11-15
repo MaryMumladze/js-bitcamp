@@ -1,9 +1,9 @@
-let verb = prompt("enter a verb");
-let noun = prompt("enter a noun");
-let adverb = prompt("enter an adverb");
-let adjactive = prompt("enter an adjactive");
+// let verb = prompt("enter a verb");
+// let noun = prompt("enter a noun");
+// let adverb = prompt("enter an adverb");
+// let adjactive = prompt("enter an adjactive");
 
-document.write("Do you " +  verb + " your " +  adjactive  + " " + noun + " " + adverb + "?" + " That's hilarious!");
+// document.write("Do you " +  verb + " your " +  adjactive  + " " + noun + " " + adverb + "?" + " That's hilarious!");
 
 // let theNumber = Number(prompt("Enter the student's score"));
 
@@ -30,5 +30,10 @@ document.write("Do you " +  verb + " your " +  adjactive  + " " + noun + " " + a
 // alert(a * b);
 // alert(a / b);
 
+
+const a = prompt("How much was the meal?");
+const b = prompt("What percentage would you like to tip?");
+
+console.log(a * b / 100);
 
 
