@@ -3,7 +3,7 @@ let noun = prompt("enter a noun");
 let adverb = prompt("enter an adverb");
 let adjactive = prompt("enter an adjactive");
 
-document.write("Do you " +  verb + " your " +  adjactive  + " " + noun + " " + adverb + "?" + " That's hilarious!")
+document.write("Do you " +  verb + " your " +  adjactive  + " " + noun + " " + adverb + "?" + " That's hilarious!");
 
 // let theNumber = Number(prompt("Enter the student's score"));
 
