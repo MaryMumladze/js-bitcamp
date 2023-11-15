@@ -1,3 +1,10 @@
+let verb = prompt("enter a verb");
+let noun = prompt("enter a noun");
+let adverb = prompt("enter an adverb");
+let adjactive = prompt("enter an adjactive");
+
+document.write("Do you " +  verb + " your " +  adjactive  + " " + noun + " " + adverb + "?" + " That's hilarious!")
+
 // let theNumber = Number(prompt("Enter the student's score"));
 
 // if(theNumber > 90 && theNumber < 100){
@@ -16,9 +23,12 @@
 //     console.log("you got an F")
 // }
 
-let a = Number(prompt("Enter first number"));
-let b = Number(prompt("Enter second number"));
-alert(a + b);
-alert(a - b);
-alert(a * b);
-alert(a / b);
+// let a = Number(prompt("Enter first number"));
+// let b = Number(prompt("Enter second number"));
+// alert(a + b);
+// alert(a - b);
+// alert(a * b);
+// alert(a / b);
+
+
+
