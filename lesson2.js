@@ -31,9 +31,14 @@
 // alert(a / b);
 
 
-const a = prompt("How much was the meal?");
-const b = prompt("What percentage would you like to tip?");
+// const a = prompt("How much was the meal?");
+// const b = prompt("What percentage would you like to tip?");
 
-console.log(a * b / 100);
+// console.log(a * b / 100);
+
+const a = prompt("What is your current age?");
+const b = prompt("At what age would you like to retire?");
+
+console.log(b - a + 2023);
 
 
