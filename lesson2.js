@@ -54,11 +54,24 @@
 
 
 // Area of a Rectangular Room
-const m2 = prompt("what is e lenght of the room in feet?");
-const f2 = prompt("what is the width of the room in feet?");
-const e = 0.09290304
+// const m2 = prompt("what is e lenght of the room in feet?");
+// const f2 = prompt("what is the width of the room in feet?");
+// const e = 0.09290304
 
-console.log(m2 * f2)
-console.log(m2 * f2 * e);
+// console.log(m2 * f2)
+// console.log(m2 * f2 * e);
+
+
+// Pizza Party
+const a = prompt("How many people?");
+const b = prompt("How many pizzas do you have?");
+const c = prompt("How many slices are there on one pizza?");
+
+const pizza = b * c;
+console.log(pizza / a);
+
+
+
+
 
 
